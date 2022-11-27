@@ -33,7 +33,7 @@ export function deleteStudent(students) {
 //### 5- Eliminar un alumno aleatoriamente de la clase.
 export function getRandomArbitrary(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
-}
+}  //Esta función sacada de Internet como hizo el profe xD
 
 export function deleteAleatoryStudent(students) {
     const numRandom = getRandomArbitrary(0, students.length)
